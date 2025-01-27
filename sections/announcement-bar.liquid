@@ -19,8 +19,8 @@
 {% endif %}
 
 <div
-  style="background-color:#000;
-  class="
+  style=""
+  class="bg-tint1 h-38"
 >
   <div class="page-width utility-bar__grid{% if announcement_bar and language_country_selector or section.settings.show_social and social_icons %} utility-bar__grid--3-col{% elsif language_country_selector or section.settings.show_social and social_icons %} utility-bar__grid--2-col{% endif %}">
     {%- if section.settings.show_social and social_icons -%}
@@ -40,7 +40,7 @@
               class="text-tint2"
             >
           {%- endif -%}
-          <p class="text-tint2">
+          <p class="text-tint2 text-1">
             <span>{{ section.blocks.first.settings.text | escape }}</span>
             {%- if section.blocks.first.settings.link != blank -%}
               {{- 'icon-arrow.svg' | inline_asset_content -}}
