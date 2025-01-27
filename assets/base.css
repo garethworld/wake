@@ -5,6 +5,8 @@
   font-style: normal;
 }
 
+.no-underline {text-decoration:none}
+
 .block {display:block}
 .flex {display:flex}
 .flex-wrap {flex-wrap:wrap}
@@ -21,6 +23,7 @@
 
 .bg-tint1 {background-color: #000;}
 
+.text-tint1 {color: #000;}
 .text-tint2 {color:#fff}
 .text-tint3 {color:#868686}
 
