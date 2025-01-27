@@ -252,8 +252,8 @@
         {%- endcase -%}
       {%- endfor -%}
 
-    <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
-  Basket
+    <a href="{{ routes.cart_url }}" class="text-1" id="cart-icon-bubble">
+  Bag
   {%- if cart != empty -%}
     ({{ cart.item_count }})
   {%- else -%}
