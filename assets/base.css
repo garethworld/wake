@@ -5,24 +5,37 @@
   font-style: normal;
 }
 
+
+.container {padding-left:50px;padding-right: 50px;}
+
+
 .no-underline {text-decoration:none}
 
+.hidden {display:none}
 .block {display:block}
 .inline-block {display: inline-block}
 .flex {display:flex}
+.flex-none {flex:none}
+.flex-1 {flex: 1}
 .flex-wrap {flex-wrap:wrap}
 .items-center {align-items:center}
 .justify-center {justify-content:center}
+.justify-between  {justify-content:space-between}
+.justify-end {justify-content: end}
 
+.h-0 {height:0px}
 .h-38 {height:38px}
 
 
 .text-1 {font-size: 16px;}
 
-.ml-1 {margin-left: 5px;}
+.ml-auto {margin-left:auto}
+.ml-bag {margin-left: 3px;}
 .mb-0 {margin-bottom:0}
+.ml-1 {margin-left: 5px;}
 
-.py {padding:30px 0}
+
+.py-6 {padding-top:30px;padding-bottom:30px}
 
 
 .bg-tint1 {background-color: #000;}
