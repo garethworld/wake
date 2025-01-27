@@ -5,14 +5,33 @@
   font-style: normal;
 }
 
-
+.block {display:block}
+.flex {display:flex}
+.flex-wrap {flex-wrap:wrap}
+.items-center {align-items:center}
+.justify-center {justify-content:center}
 
 .h-38 {height:38px}
 
-.bg-tint1 {background-color: #000;}
 
 .text-1 {font-size: 14px;}
 
+.mb-0 {margin-bottom:0}
+
+
+.bg-tint1 {background-color: #000;}
+
+.text-tint2 {color:#fff}
+.text-tint3 {color:#868686}
+
+
+.text-center {text-align:center}
+
+.no-underline {text-decoration:none}
+
+
+
+  
 
 body {font-family: 'untitledsans';}
 
