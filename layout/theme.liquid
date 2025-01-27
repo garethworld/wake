@@ -40,7 +40,6 @@
     {%- endif -%}
 
 
-<link rel="preload" href="https://cdn.shopify.com/s/files/1/0917/2457/9165/files/untitledsans-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 
 
     
@@ -48,13 +47,7 @@
 
     {% style %}
 
-@font-face {
-  font-family: 'untitledsans';
-  src: url("https://cdn.shopify.com/s/files/1/0917/2457/9165/files/untitledsans-regular.woff2") format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-      
+
       
       {% for scheme in settings.color_schemes -%}
         {% assign scheme_classes = scheme_classes | append: ', .color-' | append: scheme.id %}
