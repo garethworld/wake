@@ -67,9 +67,9 @@
 
 .no-underline {text-decoration:none}
 
-
+.product-form__quantity {margin-top: 30px;}
 .product-sum p {margin-top: 0;}
-  
+.price__container {margin-bottom: 30px;}  
 
 body {font-family: 'untitledsans';}
 
