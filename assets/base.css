@@ -24,9 +24,8 @@
 .justify-end {justify-content: end}
 
 .add-btn {
-  background: url("{{ 'add-line.jpg' | asset_url }}") no-repeat bottom;
+  background: url("add-line.jpg") no-repeat bottom;
   background-size: contain; 
-  width: 300px;
   border: none;
   cursor: pointer;
 }
