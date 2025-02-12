@@ -41,7 +41,7 @@
 
 .text-1 {font-size: 16px;}
 .text-2 {font-size: 22px;}
-.text-3 {font-size: 24px;}
+.text-3 {font-size: calc(1rem + .20vw);}
 
 .leading-1 {line-height: 100%;}
 
