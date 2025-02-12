@@ -275,7 +275,7 @@ a.product__text {
 }
 
 .product .price__container {
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 
 .product .price dl {
@@ -350,7 +350,7 @@ a.product__text {
   flex-direction: column;
   max-width: 100%;
 }
-.product-form__quantity {margin:30px 0}
+.product-form__quantity {margin:35px 0 !important;}
 
 
 .product-form__quantity .form__label {
