@@ -28,7 +28,11 @@
   background-size: contain; 
   border: none;
   cursor: pointer;
-  padding-bottom: 20px;
+  padding-bottom: 26px;
+}
+
+.add-btn:hover {
+  color:#868686
 }
 
 .h-0 {height:0px}
