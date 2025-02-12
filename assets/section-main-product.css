@@ -350,6 +350,8 @@ a.product__text {
   flex-direction: column;
   max-width: 100%;
 }
+.product-form__quantity {margin:30px 0}
+
 
 .product-form__quantity .form__label {
   margin-bottom: 0.6rem;
