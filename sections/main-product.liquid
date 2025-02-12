@@ -99,7 +99,7 @@
               {%- when 'title' -%}
                 <div class="" {{ block.shopify_attributes }}>
                   <h1 class="text-4 text-tint1">{{ product.title | escape }}</h1>
-                  <a href="{{ product.url }}" class="product__title">
+                  <a href="{{ product.url }}" class="hidden">
                     <h2 class="text-4 text-tint1">
                       {{ product.title | escape }}
                     </h2>
@@ -193,7 +193,7 @@
                 </p>
               {%- when 'description' -%}
                 {%- if product.description != blank -%}
-                  <div class="text-3 text-tint1" {{ block.shopify_attributes }}>
+                  <div class="text-3 text-tint1 leading-1" {{ block.shopify_attributes }}>
                     {{ product.description }}
                   </div>
                 {%- endif -%}

@@ -43,6 +43,8 @@
 .text-2 {font-size: 22px;}
 .text-3 {font-size: 24px;}
 
+.leading-1 {line-height: 100%;}
+
 .ml-auto {margin-left:auto}
 .ml-bag {margin-left: 3px;}
 .mb-0 {margin-bottom:0}
