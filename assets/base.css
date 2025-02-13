@@ -71,6 +71,7 @@
 .product-sum p {margin-top: 0;}
 
 .drawer__inner  {background-color: #F9F9F4 !important;}
+.product-form__error-message-wrapper {padding-bottom: 10px;}
 
 
 body {font-family: 'untitledsans';}
