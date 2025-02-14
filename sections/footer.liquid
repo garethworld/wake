@@ -298,6 +298,13 @@
       </div>
     </div>
     <div class="footer__content-bottom-wrapper page-width{% if section.settings.enable_country_selector == false and section.settings.enable_language_selector == false %} footer__content-bottom-wrapper--center{% endif %}">
+     
+     
+      <img src="{{ 'wake-footer.jpg' | asset_url }}" alt="Sophie Wake" class="footer-wake" />
+
+     
+     
+     
       <div class="footer__copyright caption">
         <small class="copyright__content"
           >&copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url -}}
