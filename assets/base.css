@@ -89,6 +89,7 @@
 .cart-drawer .cart-items thead {display: none;}
 
 .header-base .left-space {display: none;}
+.logo {width: 200px;}
 
 .collection-links {list-style-type: none; padding:0;margin:0;line-height: 100%;}
 .collection-links li {padding:0 10px;}
@@ -107,6 +108,7 @@
 
 
 @media screen and (min-width: 750px) {
+  .logo {width: 250px;}
   .header-base {justify-content: space-between; align-items: center;padding-top:30px; padding-bottom: 30px;}
   .header-base .left-space {display: block;}
   .container {padding-left:50px;padding-right: 50px;}
