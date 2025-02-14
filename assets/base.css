@@ -100,6 +100,7 @@
 .collection-links li {padding:0 5px;}
 .collection-links li a {text-decoration: none; display: block;}
 .collection-links li a:hover {text-decoration: underline;}
+.collection-links li a.active {text-decoration: underline !important;}
 
 
 .footer-credits a {text-decoration: none; color: #868686;}
