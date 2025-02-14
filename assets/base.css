@@ -83,7 +83,7 @@
 .loading__spinner  {margin-left: 30px;}
 
 .header-base {
-  align-items: center; padding-left:20px;padding-right: 20px; 
+  align-items: center; padding-top:20px;padding-bottom: 20px; 
 } 
 
 .cart-drawer .cart-items thead {display: none;}
@@ -107,7 +107,7 @@
 
 
 @media screen and (min-width: 750px) {
-  .header-base {justify-content: space-between; align-items: center;padding-left:30px; padding-right: 30px;}
+  .header-base {justify-content: space-between; align-items: center;padding-top:30px; padding-bottom: 30px;}
   .header-base .left-space {display: block;}
   .container {padding-left:50px;padding-right: 50px;}
   .collection-links li {padding:0 20px !important}
