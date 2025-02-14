@@ -38,7 +38,7 @@
 .h-0 {height:0px}
 .h-38 {height:38px}
 
-.width-full {width:100%}
+.w-full {width:100%}
 
 
 .text-1 {font-size: clamp(14px, 1.43vw, 16px);}
