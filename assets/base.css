@@ -19,7 +19,7 @@
 .flex-1 {flex: 1}
 .flex-wrap {flex-wrap:wrap}
 .items-center {align-items:center}
-.jc {justify-content:center}
+.justify-center {justify-content:center}
 .justify-between  {justify-content:space-between}
 .justify-end {justify-content: end}
 
