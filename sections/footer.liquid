@@ -305,6 +305,15 @@
      
       <div class="w-full text-1 text-tint3 footer-credits">
 
+        <ul class="">
+          {% for link in linklists.footer.links %}
+            <li class="">
+              <a href="{{ link.url }}" class="text-3  text-tint1 {% if link.active %} underline  {% endif %}">{{ link.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+
+
         &copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url -}}
        <a class="w-full mb-1 block text-1 text-tint3" target="_blank" href="https://eighthday.co.uk/"> Website Eighth Day</a>
 
