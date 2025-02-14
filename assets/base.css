@@ -84,7 +84,7 @@
 
 .footer-credits a {text-decoration: none; color: #868686;}
 .footer-credits a:hover {text-decoration: underline;}
-.footer-links {list-style: none; padding:0;margin:0}
+.footer-links {list-style-type: none; padding:0;margin:0}
 
 
 body {font-family: 'untitledsans';}
