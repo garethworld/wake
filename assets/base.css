@@ -6,7 +6,7 @@
 }
 
 
-.container {padding-left:50px;padding-right: 50px;}
+.container {padding-left:20px;padding-right: 20px;}
 
 
 .no-underline {text-decoration:none}
@@ -88,6 +88,7 @@
 
 @media screen and (min-width: 750px) {
   .header-base {justify-content: space-between; align-items: center;}
+  .container {padding-left:50px;padding-right: 50px;}
 }
 
 .footer-credits a {text-decoration: none; color: #868686;}
