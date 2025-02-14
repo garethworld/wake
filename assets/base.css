@@ -38,6 +38,8 @@
 .h-0 {height:0px}
 .h-38 {height:38px}
 
+.width-full {width:100%}
+
 
 .text-1 {font-size: clamp(14px, 1.43vw, 16px);}
 .text-2 {font-size: clamp(14px, 1.43vw, 18px);}
@@ -63,6 +65,8 @@
 .text-tint1 {color: #000;}
 .text-tint2 {color:#fff}
 .text-tint3 {color:#868686}
+
+.footer-wake {width:600px}
 
 
 .text-center {text-align:center}
