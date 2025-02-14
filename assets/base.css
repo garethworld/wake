@@ -96,12 +96,17 @@
   .container {padding-left:50px;padding-right: 50px;}
 }
 
+.collection-links {list-style-type: none; padding:0;margin:0;line-height: 100%;}
+
+
 .footer-credits a {text-decoration: none; color: #868686;}
 .footer-credits a:hover {text-decoration: underline;}
 .footer-links {list-style-type: none; padding:0;margin:0;line-height: 100%;}
 .footer-links li {margin-bottom: 5px;}
 .footer-links a {text-decoration: none;}
 .footer-links a:hover {text-decoration: underline;}
+
+
 
 
 body {font-family: 'untitledsans'; letter-spacing: 0px !important;}
