@@ -58,6 +58,20 @@
   endif
 -%}
 
+
+<section>
+  <ul class="collection-links flex flex-wrap justify-center">
+    {% for link in linklists.collections.links %}
+      <li class="">
+        <a href="{{ link.url }}" class="text-3 text-tint1 ">
+          {{ link.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
+
 <div
   class="color-{{ section.settings.color_scheme }} isolate gradient"
 >
