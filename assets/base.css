@@ -86,11 +86,11 @@
   align-items: center;
 }
 
-.header-base .flex-1 {display: none;}
+.header-base .left-space {display: none;}
 
 @media screen and (min-width: 750px) {
   .header-base {justify-content: space-between; align-items: center;}
-
+  .header-base .left-space {display: block;}
   .container {padding-left:50px;padding-right: 50px;}
 }
 
