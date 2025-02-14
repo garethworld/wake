@@ -41,9 +41,10 @@
 
 .text-1 {font-size: clamp(14px, 1.43vw, 16px);}
 .text-2 {font-size: clamp(14px, 1.43vw, 18px);}
-.text-3 {font-size: clamp(16px, 1.43vw, 20px); line-height: 120%;}
+.text-3 {font-size: clamp(16px, 1.43vw, 20px); }
 
 .leading-1 {line-height: 100%;}
+.leading-2 {line-height: 120%;}
 
 .ml-auto {margin-left:auto}
 .ml-bag {margin-left: 3px;}
