@@ -300,14 +300,10 @@
     <div class="footer__content-bottom-wrapper page-width{% if section.settings.enable_country_selector == false and section.settings.enable_language_selector == false %} footer__content-bottom-wrapper--center{% endif %}">
      
      
+     
+     
+     
       <div class="w-full">
-      <img src="{{ 'wake-footer.jpg' | asset_url }}" alt="Sophie Wake" class="footer-wake" />
-      </div>
-
-     
-     
-     
-      <div class="">
 
 
 
@@ -315,6 +311,9 @@
           >&copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url -}}
         </small>
     
+
+        
+
         {%- if section.settings.show_policy -%}
           <ul class="policies list-unstyled">
             {%- for policy in shop.policies -%}
@@ -329,6 +328,13 @@
           </ul>
         {%- endif -%}
       </div>
+
+      <div class="w-full">
+        <img src="{{ 'wake-footer.jpg' | asset_url }}" alt="Sophie Wake" class="footer-wake" />
+        </div>
+  
+       
+
     </div>
   </div>
 </footer>
