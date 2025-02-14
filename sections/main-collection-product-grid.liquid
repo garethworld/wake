@@ -36,6 +36,16 @@
   }
 {%- endstyle -%}
 
+
+<ul class="collection-links">
+  {% for link in linklists.collections.links %}
+    <li class="">
+      <a href="{{ link.url }}" class="text-1  text-tint1 {% if link.active %} underline  {% endif %}">{{ link.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+
 <div class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}">
   {%- paginate collection.products by section.settings.products_per_page -%}
     {% comment %} Sort is the first tabbable element when filter type is vertical {% endcomment %}
