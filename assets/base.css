@@ -61,6 +61,7 @@
 .m-0 {margin:0}
 .p-0 {padding:0}
 .ml-1 {margin-left: 5px;}
+.mb-1 {margin-bottom: 5px;}
 
 
 .py-6 {padding-top:30px;padding-bottom:30px}
@@ -105,6 +106,8 @@
 .collection-links li a:hover {text-decoration: underline;}
 .collection-links li a.active {text-decoration: underline !important;}
 
+
+.product-card-hover:hover .pro-title {color: #000 !important;}
 
 .footer-credits a {text-decoration: none; color: #868686;}
 .footer-credits a:hover {text-decoration: underline;}
