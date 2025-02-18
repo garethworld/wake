@@ -1,7 +1,7 @@
 
 <span>{{ 'templates.cart.cart' | t }}</span>
 {%- if cart != empty -%}
-  <div class="cart-count-bubble">
+  <div class="">
     {%- if cart.item_count < 100 -%}
       <span class="inline-block ml-bag"> ({{ cart.item_count }})</span>
     {%- endif -%}
