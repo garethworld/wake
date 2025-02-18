@@ -112,7 +112,7 @@
 .footer-links a {text-decoration: none;}
 .footer-links a:hover {text-decoration: underline;}
 
-.sold-out {background:#E54937;width:16px;height:16px;border-radius: 100%;margin-right:5px}
+.sold-out {background:#E54937;display:block;width:16px;height:16px;border-radius: 100%;margin-right:5px}
 
 
 
