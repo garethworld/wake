@@ -18,6 +18,7 @@
 .flex-none {flex:none}
 .flex-1 {flex: 1}
 .flex-wrap {flex-wrap:wrap}
+.mx-auto {margin-left:auto;margin-right:auto}
 .items-center {align-items:center}
 .justify-center {justify-content:center}
 .justify-between  {justify-content:space-between}
