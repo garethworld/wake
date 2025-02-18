@@ -149,7 +149,7 @@
       <div class="card__content  text-center">
         <div class="card__information text-tint3">
           <h3
-            class="text-center mb-0 {% if card_product.featured_media or settings.card_style == 'standard' %} {% endif %}"
+            class="text-center mb-0 mt-0 {% if card_product.featured_media or settings.card_style == 'standard' %} {% endif %}"
             {% if card_product.featured_media or settings.card_style == 'card' %}
               id="title-{{ section_id }}-{{ card_product.id }}"
             {% endif %}
