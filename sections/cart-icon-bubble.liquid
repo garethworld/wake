@@ -1,9 +1,9 @@
 <span>{{ 'templates.cart.cart' | t }}</span>
 {%- if cart != empty -%}
   <div class="">
-    {%- if cart.item_count < 100 -%}
+    {%- if cart.item_count < 1000 -%}
       <span class="inline-block ml-bag"> ({{ cart.item_count }})</span>
     {%- endif -%}
-    <span class="inline-block ml-bag">  ({{ cart.item_count }})</span>
+   
   </div>
 {%- endif -%}
