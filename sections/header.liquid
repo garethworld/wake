@@ -128,6 +128,12 @@
   <header class="flex flex-wrap container header-base">
 
     <div class="flex-1 left-space">&nbsp;</div>
+
+    {% if template.name == 'product' %}
+      <div class="flex-1"><a href="/">Shop</a></div>
+    {% endif %}
+
+
     {%- if section.settings.logo_position != 'middle-center' -%}
       {%- if request.page_type == 'index' -%}
         <h1 class="header__heading">
