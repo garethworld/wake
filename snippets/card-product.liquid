@@ -150,25 +150,10 @@
       </div>
       <div class="card__content  text-center">
         <div class="card__information text-tint3">
-
-          asdasd
-          <div class="card__badge ">
-            {%- if card_product.available == false -%}
-              <span
-                id="Badge-{{ section_id }}-{{ card_product.id }}"
-                class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}"
-              >
-                {{- 'products.product.sold_out' | t -}}
-              </span>
-            {%- elsif card_product.compare_at_price > card_product.price and card_product.available -%}
-              <span
-                id="Badge-{{ section_id }}-{{ card_product.id }}"
-                class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
-              >
-                {{- 'products.product.on_sale' | t -}}
-              </span>
-            {%- endif -%}
-          </div>
+          {%- if card_product.available == false -%}
+          sold out
+        {% endif %}
+      
           <h3
             class="text-center mb-0 mt-0 {% if card_product.featured_media or settings.card_style == 'standard' %} {% endif %}"
             {% if card_product.featured_media or settings.card_style == 'card' %}
