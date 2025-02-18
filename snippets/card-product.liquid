@@ -151,7 +151,9 @@
       <div class="card__content  text-center">
         <div class="card__information text-tint3">
           {%- if card_product.available == false -%}
-            <div class="flex flex-wrap"><span class="sold-out"></span> SOLD</div>
+            <div class="flex flex-wrap items-center">
+            <div class="flex flex-wrap items-center"><span class="sold-out"></span> SOLD</div>
+          </div>
           {% endif %}
 
           <h3
