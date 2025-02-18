@@ -1,4 +1,4 @@
-<span>{{ 'templates.cart.cart' | t }}</span>
+<span>{{ 'templates.cart.cart' | t }}  ({{ cart.item_count }})</span>
 {%- if cart != empty -%}
   <div class="">
     {%- if cart.item_count < 1000 -%}
