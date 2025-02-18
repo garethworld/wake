@@ -152,7 +152,7 @@
         <div class="card__information text-tint3">
           {%- if card_product.available == false -%}
             <div class="flex flex-wrap">
-            <div class="flex flex-wrap mx-auto items-center"><span class="sold-out"></span> SOLD</div>
+            <div class="flex flex-wrap mx-auto text-tint1 items-center"><span class="sold-out"></span> SOLD</div>
           </div>
           {% endif %}
 
@@ -165,7 +165,7 @@
             <a
               href="{{ card_product.url }}"
               id="CardLink-{{ section_id }}-{{ card_product.id }}"
-              class="text-tint3 no-underline mb-0"
+              class="text-tint3 no-underline mb-0 text-3"
               aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"
             >
               {{ card_product.title | escape }}
