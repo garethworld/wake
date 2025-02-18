@@ -112,7 +112,7 @@
   .header-base {justify-content: space-between; align-items: center;padding-top:30px; padding-bottom: 30px;}
   .header-base .left-space {display: block;}
   .container {padding-left:50px;padding-right: 50px;}
-  .collection-links li {padding:0 20px !important}
+  .collection-links li {padding:0 12px !important}
 }
 
 
