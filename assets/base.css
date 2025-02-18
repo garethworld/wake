@@ -95,6 +95,7 @@
 
 .collection-title {margin-bottom: 5px !important;}
 .collection-desc {max-width:860px;margin: 0 auto;}
+.collection-desc p {margin-bottom:0px;}
 
 .collection-links {list-style-type: none; padding:0;margin:0;}
 .collection-links li {padding:0 10px;}
