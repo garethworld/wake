@@ -107,7 +107,7 @@
 .collection-links li a.active {text-decoration: underline !important;}
 
 
-.product-card-hover:hover .pro-title {color: #000 !important;}
+.product-card-hover:hover .pro-title a {color: #000 !important;}
 
 .footer-credits a {text-decoration: none; color: #868686;}
 .footer-credits a:hover {text-decoration: underline;}
