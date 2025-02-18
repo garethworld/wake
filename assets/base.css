@@ -42,6 +42,8 @@
 
 .w-full {width:100%}
 
+.text-center {text-align:center}
+
 
 .text-1 {font-size: clamp(14px, 1.43vw, 16px);}
 .text-2 {font-size: clamp(14px, 1.43vw, 18px);}
