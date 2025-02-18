@@ -23,7 +23,7 @@
 .justify-between  {justify-content:space-between}
 .justify-end {justify-content: end}
 
-.underline {text-decoration:underline}
+.underline {text-decoration:underline !important}
 
 .add-btn {
   background: url("add-line.jpg") no-repeat bottom;
