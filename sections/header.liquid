@@ -254,14 +254,6 @@
         {%- endcase -%}
       {%- endfor -%}
 
-    <a href="{{ routes.cart_url }}" class="text-1 text-tint1 no-underline" id="cart-icon-bubble">
- <span class="inline-block"> Bag </span>
-  {%- if cart != empty -%}
-     <span class="inline-block ml-bag"> ({{ cart.item_count }})</span>
-  {%- else -%}
-     <span class="inline-block ml-bag">(0)</span>
-  {%- endif -%}
-</a>
 
     </div>
 
