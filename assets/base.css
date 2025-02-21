@@ -32,6 +32,7 @@
   border: none;
   cursor: pointer;
   padding-bottom: 20px;
+  margin-bottom: 60px;
 }
 
 .add-btn:hover {
@@ -125,8 +126,8 @@
 
 .sold-out {background:#E54937;display:block;width:16px;height:16px;border-radius: 100%;margin-right:10px}
 
-.accordion {margin-top: 60px !important;}
-..accordion {border-bottom: 1px solid #000 !important;}
+
+.accordion {border-bottom: 1px solid #000 !important;}
  
 
 @media screen and (min-width: 750px) {
