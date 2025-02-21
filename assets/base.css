@@ -97,7 +97,7 @@
 .cart-drawer .cart-items thead {display: none;}
 
 .header-base .left-space {display: none;}
-.logo {width: 180px !important;}
+.logo {width: 180px;}
 
 .collection-title {margin-bottom: 5px !important; margin-top: 45px;}
 .collection-desc {max-width:860px;margin: 0 auto;}
@@ -124,7 +124,7 @@
 
 
 @media screen and (min-width: 750px) {
-  .logo {width: 250px;}
+  .logo {width: 250px !important;}
   .header-base {justify-content: space-between; align-items: center;padding-top:30px; padding-bottom: 30px;}
   .header-base .left-space {display: block;}
   .container {padding-left:50px;padding-right: 50px;}
