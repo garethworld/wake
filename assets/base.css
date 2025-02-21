@@ -24,7 +24,7 @@
 .justify-between  {justify-content:space-between}
 .justify-end {justify-content: end}
 
-.back-shop {margin-bottom: 20px;}
+.back-shop {margin-bottom: 20px;display: block}
 
 .underline {text-decoration:underline !important}
 
