@@ -51,7 +51,7 @@
 .text-3 {font-size: clamp(16px, 1.43vw, 20px); }
 
 .main-page-title {font-size: clamp(16px, 1.43vw, 20px); !important;} 
-
+ 
 .leading-1 {line-height: 100%;}
 .leading-2 {line-height: 120%;}
 .leading-3 {line-height: 130%;}
