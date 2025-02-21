@@ -97,7 +97,7 @@
 .cart-drawer .cart-items thead {display: none;}
 
 .header-base .left-space {display: none;}
-.logo {width: 200px;}
+.logo {width: 180px !important;}
 
 .collection-title {margin-bottom: 5px !important; margin-top: 45px;}
 .collection-desc {max-width:860px;margin: 0 auto;}
