@@ -128,7 +128,7 @@
 <header class="flex flex-wrap container header-base">
 
     {% if product %}
-      <div class="flex-1"><a href="/" class="text-tint1 text-1 no-underline" >SHOP</a></div>
+      <div class="flex-1"><a href="/" class="text-tint1 text-1 no-underline" > ← Shop</a></div>
     {% else %}
 
       <div class="flex-1 left-space">&nbsp;</div>
@@ -142,19 +142,7 @@
           <a href="{{ routes.root_url }}" class="">
             {%- if settings.logo != blank -%}
               <div class="header__heading-logo-wrapper">
-                {%- assign logo_alt = settings.logo.alt | default: shop.name | escape -%}
-                {%- assign logo_height = settings.logo_width | divided_by: settings.logo.aspect_ratio -%}
-                {% capture sizes %}(max-width: {{ settings.logo_width | times: 2 }}px) 50vw, {{ settings.logo_width }}px{% endcapture %}
-                {% capture widths %}{{ settings.logo_width }}, {{ settings.logo_width | times: 1.5 | round }}, {{ settings.logo_width | times: 2 }}{% endcapture %}
-                {{ settings.logo | image_url: width: 600 | image_tag:
-                  class: 'logo',
-                  widths: widths,
-                  height: logo_height,
-                  width: settings.logo_width,
-                  alt: logo_alt,
-                  sizes: sizes,
-                  preload: true
-                }}
+             
               </div>
             {%- else -%}
               <span class="h2">{{ shop.name }}</span>
