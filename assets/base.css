@@ -128,10 +128,10 @@
 
 
 .accordion {border-bottom: 1px solid #000 !important;}
-.accordion {border-top:1px solid #000 !important;}
+
 .accordion__title {font-size: clamp(16px, 1.43vw, 20px) !important;}
 .accordion:first-of-type {
-  border-top: none !important;
+  border-top:1px solid #000 !important;
 }
 
  
