@@ -126,7 +126,8 @@
 
 .sold-out {background:#E54937;display:block;width:16px;height:16px;border-radius: 100%;margin-right:10px}
 
-
+.product__accordion .accordion__content {padding: 0 0 !important }
+.product__accordion .accordion__content p {font-size: clamp(16px, 1.43vw, 20px) !important;}
  
 .accordion__title {font-size: clamp(16px, 1.43vw, 20px) !important;}
 
