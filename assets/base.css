@@ -84,7 +84,7 @@
 
 .product-form__quantity {margin-top: 30px;}
 .product-sum p {margin-top: 0;}
-.product-sum {margin-bottom: 30px; }
+.product-sum {padding-bottom: 30px; }
 
 .drawer__inner  {background-color: #F9F9F4 !important;}
 .product-form__error-message-wrapper {padding-bottom: 10px;}
