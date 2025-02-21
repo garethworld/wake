@@ -27,6 +27,15 @@
           "type": "description",
           "settings": {}
         },
+        "collapsible_tab_VUM3cM": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "FREE UK shipping on all purchases\u0003",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
         "price": {
           "type": "price",
           "settings": {}
@@ -54,6 +63,7 @@
         "vendor",
         "title",
         "description",
+        "collapsible_tab_VUM3cM",
         "price",
         "variant_picker",
         "quantity_selector",
@@ -73,67 +83,6 @@
         "enable_video_looping": true,
         "padding_top": 36,
         "padding_bottom": 12
-      }
-    },
-    "collapsible_content_AkdgaN": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_tK4weh": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "<p>sdfsdf</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_pMJN3m": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_F9br6R": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_TQeBL7": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_tK4weh",
-        "collapsible_row_pMJN3m",
-        "collapsible_row_F9br6R",
-        "collapsible_row_TQeBL7"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "Collapsible content",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "related-products": {
@@ -157,7 +106,6 @@
   },
   "order": [
     "main",
-    "collapsible_content_AkdgaN",
     "related-products"
   ]
 }
