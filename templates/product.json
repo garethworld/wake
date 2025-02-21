@@ -27,6 +27,28 @@
           "type": "description",
           "settings": {}
         },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
         "collapsible_tab_VUM3cM": {
           "type": "collapsible_tab",
           "settings": {
@@ -53,41 +75,19 @@
             "content": "<p><strong>Lorem Ipsum </strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>",
             "page": ""
           }
-        },
-        "price": {
-          "type": "price",
-          "settings": {}
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "show_gift_card_recipient": false
-          }
         }
       },
       "block_order": [
         "vendor",
         "title",
         "description",
-        "collapsible_tab_VUM3cM",
-        "collapsible_tab_mRJHPb",
-        "collapsible_tab_8ehBnt",
         "price",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons"
+        "buy_buttons",
+        "collapsible_tab_VUM3cM",
+        "collapsible_tab_mRJHPb",
+        "collapsible_tab_8ehBnt"
       ],
       "settings": {
         "enable_sticky_info": true,
