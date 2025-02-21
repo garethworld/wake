@@ -50,6 +50,8 @@
 .text-2 {font-size: clamp(14px, 1.43vw, 18px);}
 .text-3 {font-size: clamp(16px, 1.43vw, 20px); }
 
+.rte p {line-height: 120% !important;}
+
 .page-title {font-size: clamp(16px, 1.43vw, 20px) !important;} 
  
 .leading-1 {line-height: 100%;}
