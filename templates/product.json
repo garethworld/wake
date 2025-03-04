@@ -63,7 +63,7 @@
           "settings": {
             "heading": "Pay in 3 installments",
             "icon": "none",
-            "content": "<p>When an unknown printer took a galley of type and scrambled it to make a type specimen book</p>",
+            "content": "<p>Choose </p>",
             "page": ""
           }
         },
@@ -72,7 +72,7 @@
           "settings": {
             "heading": "Shipping costs for international orders",
             "icon": "none",
-            "content": "<p><strong>Lorem Ipsum </strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>",
+            "content": "<p>These are calculated at the rates below, and are applied at the checkout.<br/><br/>£30 for orders under £450<br/>£80 for orders over £450<br/><br/>All wordwide deliveries are sent via Parcel Force or DHL. Please contact me if there are any special requests regarding delivery.</p>",
             "page": ""
           }
         }
