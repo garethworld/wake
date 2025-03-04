@@ -17,14 +17,14 @@
         "heading_cD7UNd": {
           "type": "heading",
           "settings": {
-            "heading": "Subscribe to our emails",
+            "heading": "Join my mailing list",
             "heading_size": "h1"
           }
         },
         "paragraph_fLPnaw": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
+            "text": "<p>Pop your email address below</p>"
           }
         },
         "email_form_CiaTXY": {
