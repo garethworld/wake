@@ -22,8 +22,8 @@
         {%- when '@app' -%}
           {% render block %}
         {%- when 'heading' -%}
-          <h2
-            class="uppercase {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+          <span
+            class="uppercase text-3 {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
             {{ block.shopify_attributes }}
             {% if settings.animations_reveal_on_scroll %}
               data-cascade
@@ -31,10 +31,10 @@
             {% endif %}
           >
             {{ block.settings.heading }}
-          </h2>
+          </span>
         {%- when 'paragraph' -%}
           <div
-            class=" rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            class="text-1 text-tint1 {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
             {{ block.shopify_attributes }}
             {% if settings.animations_reveal_on_scroll %}
               data-cascade
