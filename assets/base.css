@@ -52,6 +52,7 @@
 .text-1 {font-size: clamp(14px, 1.43vw, 16px);}
 .text-2 {font-size: clamp(14px, 1.43vw, 18px);}
 .text-3 {font-size: clamp(16px, 1.43vw, 20px); }
+.text-4 {font-size: clamp(20px, 1.43vw, 22px); }
 
 .rte p {line-height: 130% !important;font-size: clamp(14px, 1.43vw, 16px)}
 
