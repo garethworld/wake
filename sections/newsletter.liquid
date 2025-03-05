@@ -15,7 +15,7 @@
   }
 {%- endstyle -%}
 
-<div class="newsletter page-width  {% if section.settings.full_width == false %}newsletter--narrow page-width{% endif %}">
+<div class="newsletter page-width-desktop  {% if section.settings.full_width == false %}newsletter--narrow page-width{% endif %}">
   <div class=" color-{{ section.settings.color_scheme }} gradient content-container isolate{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
     {%- for block in section.blocks -%}
       {%- case block.type -%}
@@ -34,7 +34,7 @@
           </h2>
         {%- when 'paragraph' -%}
           <div
-            class="scroll-trigger  animate--slide-in{% endif %}"
+            class="scroll-trigger animate--slide-in{% endif %}"
             {{ block.shopify_attributes }}
             {% if settings.animations_reveal_on_scroll %}
               data-cascade
