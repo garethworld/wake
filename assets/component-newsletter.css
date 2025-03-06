@@ -20,6 +20,11 @@
   max-width: 420px !important;
 }
 
+.newsletter-form__field-wrapper  .field__input:focus {
+ box-shadow: none !important;
+}
+
+
 .newsletter-form__field-wrapper .field__input {
   padding-right: 5rem;
 }
