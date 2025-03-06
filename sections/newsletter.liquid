@@ -44,7 +44,7 @@
             {{ block.settings.text }}
           </div>
         {%- when 'email_form' -%}
-          <div {{ block.shopify_attributes }}>
+          <div class="flex flex-wrap" {{ block.shopify_attributes }}>
             {% form 'customer', class: 'newsletter-form' %}
               <input type="hidden" name="contact[tags]" value="newsletter">
               <div
@@ -79,6 +79,7 @@
                   <label style="left:0px !important"  class="field__label" for="NewsletterForm--{{ section.id }}">
                     {{ 'newsletter.label' | t }}
                   </label>
+                  <div class="w-full">
                   <button
                     type="submit"
                     class="newsletter-form__button field__button"
@@ -90,6 +91,7 @@
                       {{- 'icon-arrow.svg' | inline_asset_content -}}
                     </span>
                   </button>
+                </div>
                 </div>
                 {%- if form.errors -%}
                   <small class="newsletter-form__message form__message" id="Newsletter-error--{{ section.id }}">
