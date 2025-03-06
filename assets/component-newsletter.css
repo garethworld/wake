@@ -21,7 +21,7 @@
 }
 
 .newsletter-form__field-wrapper  .field__input:focus {
- box-shadow: none !important;
+ box-shadow: none !important; 
 }
 
 
