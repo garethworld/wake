@@ -54,7 +54,7 @@
           "settings": {
             "heading": "FREE UK shipping on all purchases\u0003",
             "icon": "none",
-            "content": "<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>",
+            "content": "<p>Normally delivered in 3-5 days</p>",
             "page": ""
           }
         },
@@ -63,7 +63,7 @@
           "settings": {
             "heading": "Pay in 3 installments",
             "icon": "none",
-            "content": "<p>Choose </p>",
+            "content": "<p><strong>Normally delivered in 3-5 days</strong></p>",
             "page": ""
           }
         },
@@ -101,7 +101,7 @@
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": true,
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 12
       }
     },
