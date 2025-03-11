@@ -72,7 +72,7 @@
           "settings": {
             "heading": "Shipping costs for international orders",
             "icon": "none",
-            "content": "<p>These are calculated at the rates below, and are applied at the checkout.<br/><br/>£30 for orders under £450<br/>£80 for orders over £450<br/><br/>All wordwide deliveries are sent via Parcel Force or DHL. Please contact me if there are any special requests regarding delivery.</p>",
+            "content": "<p>These are calculated at the rates below, and are applied at the checkout.<br/><br/>Up to £200- <strong> £20</strong><br/>£200-£450-<strong> £30</strong><br/>£450-900 - <strong>£80</strong><br/>£900+ <strong>£135</strong><br/><br/>All wordwide deliveries are sent via Parcel Force or DHL. Please contact me if there are any special requests regarding delivery.</p>",
             "page": ""
           }
         }
