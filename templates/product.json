@@ -72,7 +72,7 @@
           "settings": {
             "heading": "Shipping costs for international orders",
             "icon": "none",
-            "content": "<p>These are calculated at the rates below, and are applied at the checkout.<br/><br/>Up to £200- <strong> </strong>£20<br/>£200-£450-<strong> </strong>£30<br/>£450-900 - £80<br/>£900+ £135<br/><br/>All wordwide deliveries are sent via Parcel Force or DHL. Any custom charges are the responsibility of the buyer.  Please contact me if there are any special requests regarding delivery.</p>",
+            "content": "<p>These are calculated at the rates below, and are applied at the checkout.<br/><br/>Up to £200- <strong> </strong>£20<br/>£200-£450-<strong> </strong>£30<br/>£450-900 - £80<br/>£900+ £135<br/><br/>All wordwide deliveries are sent via Royal mail up to £450, Parcel Force or DHL over this. Any custom charges are the responsibility of the buyer.  Please contact me if there are any special requests regarding delivery.</p>",
             "page": ""
           }
         }
