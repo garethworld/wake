@@ -63,7 +63,7 @@
           "settings": {
             "heading": "Pay in 3 installments",
             "icon": "none",
-            "content": "<p><strong>Normally delivered in 3-5 days</strong></p>",
+            "content": "<p>You can pay in three interest-free installments by selecting PayPal as the payment option at checkout. Availability may vary by country.</p>",
             "page": ""
           }
         },
