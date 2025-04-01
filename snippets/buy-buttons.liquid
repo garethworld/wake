@@ -74,7 +74,8 @@
             id="ProductSubmitButton-{{ section_id }}"
             type="submit"
             name="add"
-            class="add-btn text-3"
+            style="background:#000;color:#fff;"
+            class="text-3"
             {% if product.selected_or_first_available_variant.available == false
               or quantity_rule_soldout
               or product.selected_or_first_available_variant == null
