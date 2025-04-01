@@ -34,7 +34,7 @@
           </span>
         {%- when 'paragraph' -%}
           <div
-            class="text-4 text-tint1 leading-1 news-p  {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            class="text-4 text-tint1 leading-1 news-p hidden  {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
             {{ block.shopify_attributes }}
             {% if settings.animations_reveal_on_scroll %}
               data-cascade
@@ -76,7 +76,9 @@
                     placeholder="{{ 'newsletter.label' | t }}"
                     required
                   >
-    
+                  <label style="left:0px !important"  class="field__label" for="NewsletterForm--{{ section.id }}">
+                    {{ 'newsletter.label' | t }}
+                  </label>
                   <div class="w-full">
               <style>.news-btn:hover .btn-txt {color:#868686}</style>
                   <button
