@@ -70,16 +70,27 @@
               assign quantity_rule_soldout = true
             endif
           -%}
+
+          <style>
+            .add-to-cart-btn {
+              background:#000;color:#fff;cursor:pointer;padding:10px 10px;border:none;width:142px;  font-family: 'untitledsans';
+              appearance: none; 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height:47px;
+    margin-bottom:20px;
+            }
+            .add-to-cart-btn:hover {
+              background:#fff;color:#000;
+            }
+            </style>
           <button
             id="ProductSubmitButton-{{ section_id }}"
             type="submit"
             name="add"
-            style="background:#000;color:#fff;cursor:pointer;padding:10px 10px;border:none;width:142px;  font-family: 'untitledsans';
-               appearance: none; 
-     -webkit-appearance: none;
-     -moz-appearance: none
+            style="
             "
-            class="text-1"
+            class="text-1 add-to-cart-btn "
             {% if product.selected_or_first_available_variant.available == false
               or quantity_rule_soldout
               or product.selected_or_first_available_variant == null
