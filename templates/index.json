@@ -17,7 +17,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "prints",
+        "collection": "paintings",
         "products_to_show": 25,
         "columns_desktop": 3,
         "full_width": false,
