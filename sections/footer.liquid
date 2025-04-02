@@ -308,7 +308,7 @@
         <ul class="footer-links">
           {% for link in linklists.main-site.links %}
             <li class="">
-              <a href="{{ link.url }}" class="text-1  text-tint1 {% if link.active %} underline  {% endif %}">{{ link.title }}</a>
+              <a style="text-transform:uppercase" href="{{ link.url }}" class="text-2  text-tint1 {% if link.active %} underline  {% endif %}">{{ link.title }}</a>
             </li>
           {% endfor %}
         </ul>
@@ -318,7 +318,7 @@
         <ul class="footer-links">
           {% for link in linklists.footer.links %}
             <li class="">
-              <a style="text-transform:uppercase" chref="{{ link.url }}" class="text-2  text-tint1 {% if link.active %} underline  {% endif %}">{{ link.title }}</a>
+              <a  href="{{ link.url }}" class="text-1  text-tint1 {% if link.active %} underline  {% endif %}">{{ link.title }}</a>
             </li>
           {% endfor %}
         </ul>
